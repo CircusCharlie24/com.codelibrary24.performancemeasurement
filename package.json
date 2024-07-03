@@ -1,20 +1,27 @@
 {
-    "name": "com.codelibrary24.performancemeasurement",
-    "version": "1.0.0",
-    "displayName": "Performance measurement",
-    "description": "A simple package for checking FPS.",
-    "unity": "2022.1",
-    "documentationUrl": "https://ambargames.com/",
-    "changelogUrl": "https://ambargames.com/changelog.html",
-    "licensesUrl": "https://ambargames/licensing.html",
-    "keywords": [
-        "Performance",
-        "FPS",
-        "Measurement"
-    ],
-    "author": {
-        "name": "CircusCharlie",
-        "email": "circuscharlie2428@gmail.com",
-        "url": "https://www.ambargames.com"
+  "name": "com.codelibrary24.performancemeasurement",
+  "version": "1.0.0",
+  "displayName": "Performance measurement",
+  "description": "A simple package for checking FPS.",
+  "unity": "2022.1",
+  "documentationUrl": "https://ambargames.com/",
+  "changelogUrl": "https://ambargames.com/changelog.html",
+  "licensesUrl": "https://ambargames/licensing.html",
+  "samples": [
+    {
+      "displayName": "FPSCalculator",
+      "description": "Sample for FPS Calculator prefabs",
+      "path": "Samples~/FPSCalculator"
     }
+  ],
+  "keywords": [
+    "Performance",
+    "FPS",
+    "Measurement"
+  ],
+  "author": {
+    "name": "CircusCharlie",
+    "email": "circuscharlie2428@gmail.com",
+    "url": "https://www.ambargames.com"
+  }
 }

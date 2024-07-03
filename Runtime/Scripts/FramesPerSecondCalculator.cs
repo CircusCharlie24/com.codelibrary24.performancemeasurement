@@ -1,33 +1,39 @@
 using UnityEngine;
+using UnityEngine.UI;
 
-public class FramesPerSecondCalculator : MonoBehaviour
+namespace CodeLibrary24.PerformanceMeasurement
 {
-    [SerializeField] private float updateInterval = 1.0f;
-    [SerializeField] private TextMeshProUGUI fpsText;
-    private float _accum = 0.0f;
-    private int _frames = 0;
-    private float _timeLeft;
-
-    private void Start()
+    public class FramesPerSecondCalculator : MonoBehaviour
     {
-        _timeLeft = updateInterval;
-    }
+        [SerializeField]
+        private float updateInterval = 1.0f;
 
-    private void Update()
-    {
-        _timeLeft -= Time.deltaTime;
-        _accum += Time.timeScale / Time.deltaTime;
-        ++_frames;
+        [SerializeField]
+        private Text fpsText;
+        private float _accum = 0.0f;
+        private int _frames = 0;
+        private float _timeLeft;
 
-        if (_timeLeft <= 0.0f)
+        private void Start()
         {
-            float fps = _accum / _frames;
-            fpsText.text = "FPS: " + Mathf.RoundToInt(fps);
-
             _timeLeft = updateInterval;
-            _accum = 0.0f;
-            _frames = 0;
+        }
+
+        private void Update()
+        {
+            _timeLeft -= Time.deltaTime;
+            _accum += Time.timeScale / Time.deltaTime;
+            ++_frames;
+
+            if (_timeLeft <= 0.0f)
+            {
+                float fps = _accum / _frames;
+                fpsText.text = "FPS: " + Mathf.RoundToInt(fps);
+
+                _timeLeft = updateInterval;
+                _accum = 0.0f;
+                _frames = 0;
+            }
         }
     }
-}
 }
