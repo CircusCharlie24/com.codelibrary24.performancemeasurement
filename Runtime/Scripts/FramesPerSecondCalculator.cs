@@ -1,5 +1,5 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace CodeLibrary24.PerformanceMeasurement
 {
@@ -9,7 +9,7 @@ namespace CodeLibrary24.PerformanceMeasurement
         private float updateInterval = 1.0f;
 
         [SerializeField]
-        private Text fpsText;
+        private TextMeshProUGUI fpsText;
         private float _accum = 0.0f;
         private int _frames = 0;
         private float _timeLeft;

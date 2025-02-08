@@ -1,19 +1,12 @@
 {
   "name": "com.codelibrary24.performancemeasurement",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Performance measurement",
   "description": "A simple package for checking FPS.",
   "unity": "2022.1",
   "documentationUrl": "https://ambargames.com/",
   "changelogUrl": "https://ambargames.com/changelog.html",
   "licensesUrl": "https://ambargames/licensing.html",
-  "samples": [
-    {
-      "displayName": "FPSCalculator",
-      "description": "Sample for FPS Calculator prefabs",
-      "path": "Samples~/FPSCalculator"
-    }
-  ],
   "keywords": [
     "Performance",
     "FPS",
