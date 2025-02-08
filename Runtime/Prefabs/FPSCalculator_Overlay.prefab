@@ -360,4 +360,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateInterval: 1
-  fpsText: {fileID: 0}
+  fpsText: {fileID: 3816371027382559814}

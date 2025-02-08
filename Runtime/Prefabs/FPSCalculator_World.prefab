@@ -284,7 +284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateInterval: 1
-  fpsText: {fileID: 0}
+  fpsText: {fileID: 426701581431647450}
 --- !u!1 &8249210259069538042
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,6 @@
 {
   "name": "com.codelibrary24.performancemeasurement",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Performance measurement",
   "description": "A simple package for checking FPS.",
   "unity": "2022.1",
